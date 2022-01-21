@@ -1,0 +1,55 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  font-size: 18px;
+  color: #2e354f;
+  background-color: #fff;
+}
+/* Typography */
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+h2 {
+  font-size: 24px;
+  color: #ef5839;
+}
+a {
+  color: #ef5839;
+}
+a:hover,
+a:focus {
+  color: rgb(140, 140, 214);
+}
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.btn-accent {
+  background-color: #ef5839;
+  color: #fff;
+}
+.btn-white {
+  background-color: #fff;
+}
+.btn-accent:hover,
+.btn-accent:focus .btn-white:hover,
+.btn-white:focus {
+  color: black;
+}
+
+/* Layout */
+
+.container {
+  margin: 0 auto;
+  width: 620px;
+  padding: 45px 0;
+}
+header,
+.section-two {
+  background-color: #2e354f;
+  color: #fff;
+}
